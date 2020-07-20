@@ -1,0 +1,14 @@
+[16-Jul-2020 05:26:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/TOTTA/Local Sites/test1/app/public/wp-includes/update.php on line 578
+[16-Jul-2020 05:26:41 UTC] PHP Stack trace:
+[16-Jul-2020 05:26:41 UTC] PHP   1. {main}() /Users/TOTTA/Local Sites/test1/app/public/wp-cron.php:0
+[16-Jul-2020 05:26:41 UTC] PHP   2. do_action_ref_array() /Users/TOTTA/Local Sites/test1/app/public/wp-cron.php:138
+[16-Jul-2020 05:26:41 UTC] PHP   3. WP_Hook->do_action() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/plugin.php:544
+[16-Jul-2020 05:26:41 UTC] PHP   4. WP_Hook->apply_filters() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/class-wp-hook.php:311
+[16-Jul-2020 05:26:41 UTC] PHP   5. wp_version_check() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/class-wp-hook.php:287
+[16-Jul-2020 05:26:41 UTC] PHP   6. do_action() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/update.php:242
+[16-Jul-2020 05:26:41 UTC] PHP   7. WP_Hook->do_action() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/plugin.php:478
+[16-Jul-2020 05:26:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/class-wp-hook.php:311
+[16-Jul-2020 05:26:41 UTC] PHP   9. wp_maybe_auto_update() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/class-wp-hook.php:287
+[16-Jul-2020 05:26:41 UTC] PHP  10. WP_Automatic_Updater->run() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/update.php:611
+[16-Jul-2020 05:26:41 UTC] PHP  11. wp_update_themes() /Users/TOTTA/Local Sites/test1/app/public/wp-admin/includes/class-wp-automatic-updater.php:430
+[16-Jul-2020 05:26:41 UTC] PHP  12. trigger_error() /Users/TOTTA/Local Sites/test1/app/public/wp-includes/update.php:578
